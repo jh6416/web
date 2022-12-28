@@ -1,0 +1,27 @@
+body { /* 태그이름 셀렉터 */
+    background-color: #333333;
+    color:#ffffff;
+}
+div {
+    color: wheat;
+}
+#BTS { /* 아이디 셀렉터 */
+    color:red;
+}
+.list{ /* 클래스 셀렉터 */
+    color:aqua;
+}
+li:hover {/* 가상 셀렉터 */
+    background-color: rgba(55,155,200,0.9);
+    color:black;
+}
+
+tr:hover {
+    background-color: antiquewhite;
+    color:black;
+}
+
+#btn {
+    background : darkblue;
+    color:aliceblue;
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jquery 연습</title>
+    <link rel="stylesheet" href="css/test3.css">
+    <script src="js/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <!--UI 만드는 법-->
+    <!--1. 미리 디자인을 해놓은 다음에 숨김-->
+    <!--2. 버튼을 누르면 UI가 보여지게 할 예정-->
+    <div class="alert-box" id="alert1">
+        <p id="msg"></p>
+        <button >닫기</button>
+    </div>
+
+    <button onclick="show1('아이디를 입력하세요','block')">1번 알림 열기</button>
+    <button onclick="show1('비밀번호를 입력하세요','block')">2번 알림 열기</button>
+    <script>
+        function show1( msg, disp) {
+            $('#msg').html(msg);
+            $('#alert1').css("display",disp);
+        }
+        $('#close')
+        // document.getElementById('close').addEventListener('click',function(){
+        //     $('#alert1').css('display','none');
+        // });
+    </script>
+</body>
+</html>
