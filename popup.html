@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ㅇㅁ</title>
+    <link rel="stylesheet" href="css/dddd.css">
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('.btn').click(function (){
+            $('.menu').css('display','block');
+        });
+
+        $('.menu').hover(function(){
+            $(this).css('background-color',"black");
+            $(this).css('transition',"0.7s");
+        }, function(){
+            $(this).css('background-color',"blue");
+            $(this).css('transition',"0.3s");
+        });
+        })
+    </script>
+</head>
+<body>
+    <div>
+        <span class="menu">니1</span> 
+        <span class="menu">니2</span> 
+        <span class="menu">니3</span> 
+        <span class="menu">니4</span>
+        <span class="menu">니5</span>
+    </div>
+    <div class="btn">누르</div>
+    <script>
+        
+    </script>
+</body>
+</html>

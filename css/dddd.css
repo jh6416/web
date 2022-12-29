@@ -1,0 +1,9 @@
+.menu {
+    width: 140px;
+    height: 40px;
+    line-height: 40px;
+    background-color: wheat;
+    color: white;
+    cursor: pointer;
+    display: none;
+}
